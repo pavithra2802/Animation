@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/Draggable.min.js" integrity="sha512-Yrs9sG/k3DK2JwHLoHujmEU7OqAD0c3OAvfsQMsypzhHR6hryrgT9pKg5nA7pFLlpnApcwJTT4byhGAtEaHu/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/CSSRulePlugin.min.js" integrity="sha512-aUM9IHJr7TYwzhhbK0G9UQX6WNq6/1HC+lsh+EuqJyaOB44csmHMRVHcIVMWfrruvpVTtEqshD28L+0XxMH//g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+
+    <title>Converse</title>
+</head>
+<body class="background">
+    <div class="overflow">
+        <div id="container">
+            <nav class="navbar">
+                <div class="logo" data-aos="fade-right">
+                    <img src="./images/images.jpg" alt="" data-aos="fade-down">
+    
+                </div>
+                <div class="cntr-nav" data-aos="fade-left">
+                    <h1><a href="#">PRODUCTS</a></h1>
+                    <h1><a href="#">CART</a></h1>
+                    <h1><a href="#">CONTACT</a></h1>
+                </div>
+                </div>
+                
+            </nav>
+            <!-- <img src="./images/starsvg.svg" alt="" class="starone" id="starone"> -->
+    
+    
+            <div class="divone">
+                
+                <div class="heading">
+    
+                    <!-- <div class="round">
+                        <img src="./images/converse round.png" alt="">
+                        
+        
+                    </div> -->
+                    <!-- <div class="round" id="roundlogo">
+                        <img src="./images/converse round.png" alt="">
+                
+                    </div> -->
+                    <h2 data-aos="fade-down">THE BEST VERSION IS HERE</h2>
+                    <!-- <div class="roundtwo">
+                        <img src="./images/converse round.png" alt="">
+                        
+        
+                    </div> -->
+                    
+                </div>
+                <div class="roundtwo" id="roundlogotwo" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="./images/star.png" alt="" class="startwotwo">
+            
+                </div>
+                <!-- <div class="select">
+                    <div class="blue"></div>
+                    <div class="pink"></div>
+                    <div class="white">
+                    </div>
+                </div> -->
+                <div class="roundthree" id="roundlogothree" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="./images/star.png" alt="" class="startwotwo">
+            
+                </div>
+                <div class="round" id="roundlogo" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="./images/star.png" alt="" class="startwo">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="" >
+                    <img src="./images/star.png" alt="" >
+                    <img src="./images/star.png" alt="" >
+                    
+                    <!-- <img src="./images/star.png" alt="" >
+                    <img src="./images/star.png" alt="" > -->
+    
+    
+            
+                </div>
+                <!-- <div class="roundthree" id="roundlogothree" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <img src="./images/star.png" alt="" class="startwotwo">
+            
+                </div> -->
+    
+        
+                <div class="mainimage">
+                    <h1 data-aos="zoom-in">CONVERSE</h1>
+                    <div class="colors" data-aos="fade-down-right">
+                        <h5>SELECT A COLOR</h5>
+                        <div class="blue"></div>
+                        <div class="white"></div>
+                        <div class="pink"></div>
+    
+                    </div>
+                    <div class="price"  data-aos="fade-down-left">
+                        <h1>$120.00</h1>
+                    </div>
+                    <div class="converse" data-aos="fade-up">
+                        <img src="./images/conversee.png" alt="">
+                        
+                         
+    
+                        
+    
+                     </div>
+                     
+    
+                    
+                     
+    
+                    
+                </div>
+                
+                
+            </div>
+            
+    
+        </div>
+
+    </div>
+    
+    <script>
+        Draggable.create("#roundlogo", {
+  type: "y",
+  bounds: document.getElementById("container"),
+  inertia: true,
+  onClick: function () {
+    console.log("clicked");
+  },
+  onDragEnd: function () {
+    console.log("drag ended");
+    gsap.registerPlugin(Draggable, InertiaPlugin);
+  }})
+
+
+
+  Draggable.create("#roundlogotwo", {
+  type: "y",
+  bounds: document.getElementById("container"),
+  inertia: true,
+  onClick: function () {
+    console.log("clicked");
+  },
+  onDragEnd: function () {
+    console.log("drag ended");
+    gsap.registerPlugin(Draggable, InertiaPlugin);
+  }})
+
+
+    </script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>

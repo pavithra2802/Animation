@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+html,body{
+
+    width: 100%;
+    background-color: black;
+}
+#container{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+}
+.logo img{
+    width: 100px;
+
+}
+.navbar{
+    display: flex;
+}
+/* .navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 40px;
+    text-decoration: none;
+    color: white;
+} */
+.navbar{
+    justify-content: space-between;
+    /* gap: 30px; */
+    padding: 30px;
+    /* text-decoration: none; */
+    
+}
+.cntr-nav {
+    display: flex;
+    gap: 60px;
+    /* gap: 20px; */
+    
+    /* text-decoration: none; */
+
+    color: white;
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* color: white; */
+    
+}
+.cntr-nav a{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 150px; */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* gap: -20px; */
+
+}
+.converse{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: 50px;
+}
+
+.converse img{
+    height: 500px;
+    width: 700px;
+    top: -450px;
+    margin-left: 460px;
+    transform: rotate(20deg);
+    position: relative;
+    
+
+}
+.divone h2{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.divone h1{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 200PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    /* margin-top: 200px; */
+
+
+}
+.round img{
+    height: 61px;
+    width: 55px;
+    margin-top: 154px;
+    margin-left: 220px;
+    /* position: absolute; */
+
+}
+.roundtwo img{
+    position: absolute;
+    width: 100px;
+    /* margin-top: 100px;
+    margin-left: 1132px; */
+    /* margin-top: 161px;
+    margin-left: 1028px; */
+
+    margin-top: 183px;
+    margin-left: 1034px;
+    width: 69px;
+
+
+
+    /* margin-left: 1300px; */
+}
+.roundtwotwo img{
+    position: absolute;
+    /* width: 100px; */
+    /* width: 69px; */
+
+    /* margin-top: 115px;
+    margin-left: 1143px; */
+    margin-top: 158px;
+    margin-left: 1021px;
+}
+.roundthree img{
+    /* position: absolute; */
+    /* width: 100px;
+    margin-top: 83px;
+    margin-left: 107px; */
+    /* width: 100px;
+    margin-top: -48px;
+    margin-left: 291px; */
+    width: 69px;
+    margin-top: -32px;
+    margin-left: 305px;
+
+}
+.heading{
+    display: flex;
+}
+.heading h2{
+    margin-left: 357px;
+
+}
+.starone{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-left: 30px;
+}
+.startwo{
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+/* .blue{
+    
+    margin-top: 40px;
+    position: absolute;
+    height: 25px;
+  width: 25px;
+  background-color: lightblue;
+  border-radius: 50%;
+} */
+.colors h5{
+    color: white;
+    margin-top: 222px;
+    position: absolute;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.white{
+    
+    margin-top: 284px;
+    margin-left: 20px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.pink{
+    
+    margin-top: 284px;
+    margin-left: 120px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
+.blue{
+    
+    margin-top: 284px;
+    margin-left: 220px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+.price h1{
+    /* color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 890px; */
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 1012px;
+
+
+
+}
+.colors{
+    margin-left: 30px;
+}
+.overflow{
+    overflow: hidden;
+}
